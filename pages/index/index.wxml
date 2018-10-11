@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  停止位置:<input value='{{luckPosition}}' style="width:100%;text-align:center" bindinput='input' type='number'></input>
+  <view class='frame_view'>
+<view class='frame_row'>
+<image class='frame_item' style='opacity:{{color[0]}}' src='{{images[0]}}'></image>
+<image class='frame_item' style='opacity:{{color[1]}}' src='{{images[1]}}'></image>
+<image class='frame_item' style='opacity:{{color[2]}}' src='{{images[2]}}'></image>
+</view>
+
+<view class='frame_row'>
+<image class='frame_item' style='opacity:{{color[7]}}' src='{{images[7]}}'></image>
+<image class='frame_item' src='{{btnconfirm}}' bindtap='{{clickLuck}}'></image>
+<image class='frame_item' style='opacity:{{color[3]}}' src='{{images[3]}}'></image>
+</view>
+
+<view class='frame_row'>
+<image class='frame_item' style='opacity:{{color[6]}}' src='{{images[6]}}'></image>
+<image class='frame_item' style='opacity:{{color[5]}}' src='{{images[5]}}'></image>
+<image class='frame_item' style='opacity:{{color[4]}}' src='{{images[4]}}'></image>
+</view>
+</view>
+</view>
